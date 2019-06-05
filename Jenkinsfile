@@ -1,7 +1,7 @@
 def CONTAINER_NAME="docker-jenkinspipeline"
 def CONTAINER_TAG="${env.BUILD_NUMBER}"
 def DOCKER_HUB_USER="akrao"
-def HTTP_PORT="8090"
+def HTTP_PORT="8091"
 
 node {
 
